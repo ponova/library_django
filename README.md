@@ -16,6 +16,6 @@ python3 manage.py test # Run the standard tests. These should all pass.
 python3 manage.py createsuperuser # Create a superuser
 python3 manage.py runserver
 
-Open a browser to http://127.0.0.1:8000/admin/ to open the admin site
-Create a few test objects of each type.
-Open tab to http://127.0.0.1:8000 to see the main site, with your new objects.
+Open a browser to http://127.0.0.1:8000/admin/ to open the admin site 
+Create a few test objects of each type. 
+Open tab to http://127.0.0.1:8000 to see the main site, with your new objects. 
