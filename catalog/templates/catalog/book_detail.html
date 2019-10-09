@@ -1,0 +1,11 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+  <h1>Title: {{ book.title }}</h1>
+
+  <p><strong>Author:</strong> {{ book.display_author }}</p>
+  <p><strong>ISBN:</strong> {{ book.isbn }}</p>   
+  <p><strong>Genre:</strong> {% for genre in book.genre.all %} {{ genre }}{% if not forloop.last %}, {% endif %}{% endfor %}</p>
+  <p><strong>Book publishing date:</strong> {{ book.dt_print }}</p> 
+
+{% endblock %}

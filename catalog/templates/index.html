@@ -1,0 +1,19 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+<h1>Домашняя страница библиотеки</h1>
+
+  <p>Добро пожаловать в <em>БИБЛИОТЕКУ</em>.</p>
+
+<h2>Обновляемый контент</h2>
+
+  <p>На данный момент в нашей библиотеке:</p>
+  <ul>
+    <li><strong>Книг:</strong> {{ num_books }}</li>
+    <li><strong>Авторов:</strong> {{ num_authors }}</li>
+    <li><strong>Жанров:</strong> {{ num_genre }}</li>
+  </ul>
+  <p>Количество посещений Вами этой страницы: {{ num_visits }}.</p>
+{% endblock %}
+
+{% block title %}<title>Библиотека для вас</title>{% endblock %}
