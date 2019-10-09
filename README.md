@@ -2,6 +2,7 @@
 Library website written in Django.
 
 Quick Start
+
 To get this project up and running locally on your computer:
 
 Set up the Python development environment. We recommend using a Python virtual environment.
